@@ -232,8 +232,14 @@ def parse_bed_service_info(text: str, hospital: dict) -> None:
         hospital['services'] = 'SWING BEDS'
 
 
-def write_csv(hospitals: list[dict], output_path: str) -> None:
-    """Write hospital data to CSV file."""
+def write_csv(hospitals: list[dict], output_path: str, date_parsed: str = None) -> None:
+    """Write hospital data to CSV file.
+
+    Args:
+        hospitals: List of hospital dictionaries
+        output_path: Path to output CSV file
+        date_parsed: Optional date string to add to each row (YYYY-MM-DD format)
+    """
     fieldnames = [
         'city',
         'county',
@@ -256,27 +262,51 @@ def write_csv(hospitals: list[dict], output_path: str) -> None:
         'branch_extension'
     ]
 
+    # Add date_parsed field if provided
+    if date_parsed:
+        fieldnames.append('date_parsed')
+        for hospital in hospitals:
+            hospital['date_parsed'] = date_parsed
+
     with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(hospitals)
 
 
-def parse_hospital_roster(pdf_path: str, output_path: str) -> list[dict]:
-    """Main function to parse hospital roster PDF and write to CSV."""
+def parse_hospital_roster(pdf_path: str, output_path: str, date_parsed: str = None) -> list[dict]:
+    """Main function to parse hospital roster PDF and write to CSV.
+
+    Args:
+        pdf_path: Path to input PDF file
+        output_path: Path to output CSV file
+        date_parsed: Optional date string to add to each row (YYYY-MM-DD format)
+
+    Returns:
+        List of parsed hospital dictionaries
+    """
     if not Path(pdf_path).exists():
         raise FileNotFoundError(f"PDF file not found: {pdf_path}")
 
     pages_text = extract_text_from_pdf(pdf_path)
     hospitals = parse_hospital_entries(pages_text)
-    write_csv(hospitals, output_path)
+    write_csv(hospitals, output_path, date_parsed)
 
     return hospitals
 
 
 if __name__ == '__main__':
-    pdf_path = sys.argv[1] if len(sys.argv) > 1 else 'hospital_roster.pdf'
-    output_path = sys.argv[2] if len(sys.argv) > 2 else 'hospital_roster.csv'
+    import argparse
 
-    hospitals = parse_hospital_roster(pdf_path, output_path)
-    print(f"Parsed {len(hospitals)} hospitals to {output_path}")
+    parser = argparse.ArgumentParser(description='Parse Nebraska DHHS Hospital Roster PDF')
+    parser.add_argument('pdf_path', nargs='?', default='hospital_roster.pdf',
+                        help='Path to input PDF file')
+    parser.add_argument('output_path', nargs='?', default='hospital_roster.csv',
+                        help='Path to output CSV file')
+    parser.add_argument('--date', '-d', dest='date_parsed',
+                        help='Date parsed in YYYY-MM-DD format (added to each row)')
+
+    args = parser.parse_args()
+
+    hospitals = parse_hospital_roster(args.pdf_path, args.output_path, args.date_parsed)
+    print(f"Parsed {len(hospitals)} hospitals to {args.output_path}")
