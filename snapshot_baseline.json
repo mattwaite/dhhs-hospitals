@@ -1,0 +1,923 @@
+{
+  "total_count": 101,
+  "facility_type_counts": {
+    "HOSP-CAH": 62,
+    "HOSP-ACU": 27,
+    "HOSP-CHD": 3,
+    "REH HOSP": 2,
+    "PSYCH": 3,
+    "HOSP-LT": 3,
+    "PSY": 1
+  },
+  "hospitals": [
+    {
+      "city": "AINSWORTH",
+      "county": "BROWN",
+      "zip_code": "69210",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Brown County Hospital",
+      "license_no": "060001",
+      "total_licensed_beds": "19"
+    },
+    {
+      "city": "ALBION",
+      "county": "BOONE",
+      "zip_code": "68620",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Boone County Health Center",
+      "license_no": "030001",
+      "total_licensed_beds": "22"
+    },
+    {
+      "city": "ALLIANCE",
+      "county": "BOX BUTTE",
+      "zip_code": "69301",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Box Butte General Hospital",
+      "license_no": "040001",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "ALMA",
+      "county": "HARLAN",
+      "zip_code": "68920",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Harlan County Health System",
+      "license_no": "390001",
+      "total_licensed_beds": "19"
+    },
+    {
+      "city": "ATKINSON",
+      "county": "HOLT",
+      "zip_code": "68713",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "West Holt Memorial Hospital",
+      "license_no": "410001",
+      "total_licensed_beds": "15"
+    },
+    {
+      "city": "AUBURN",
+      "county": "NEMAHA",
+      "zip_code": "68305",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Nemaha County Hospital",
+      "license_no": "560001",
+      "total_licensed_beds": "16"
+    },
+    {
+      "city": "AURORA",
+      "county": "HAMILTON",
+      "zip_code": "68818",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Memorial Community Health, Inc dba Memorial Hospi",
+      "license_no": "380001",
+      "total_licensed_beds": "12"
+    },
+    {
+      "city": "BASSETT",
+      "county": "ROCK",
+      "zip_code": "68714",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Rock County Hospital",
+      "license_no": "830001",
+      "total_licensed_beds": "15"
+    },
+    {
+      "city": "BEATRICE",
+      "county": "GAGE",
+      "zip_code": "68310",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Beatrice Community Hospital & Health Center, Inc",
+      "license_no": "H000119",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "BELLEVUE",
+      "county": "SARPY",
+      "zip_code": "68123",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Bellevue Medical Center, LLC dba Bellevue Medical",
+      "license_no": "H000115",
+      "total_licensed_beds": "91"
+    },
+    {
+      "city": "BENKELMAN",
+      "county": "DUNDY",
+      "zip_code": "69021",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Dundy County Hospital",
+      "license_no": "270001",
+      "total_licensed_beds": "12"
+    },
+    {
+      "city": "BLAIR",
+      "county": "WASHINGTON",
+      "zip_code": "68008",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Memorial Community Hospital Corp dba Memorial Co",
+      "license_no": "790001",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "BOYS TOWN",
+      "county": "DOUGLAS",
+      "zip_code": "68010",
+      "facility_type": "HOSP-CHD",
+      "facility_name": "Boys Town National Research Hospital",
+      "license_no": "H000107",
+      "total_licensed_beds": "52"
+    },
+    {
+      "city": "BOYS TOWN",
+      "county": "DOUGLAS",
+      "zip_code": "68010",
+      "facility_type": "HOSP-CHD",
+      "facility_name": "Boys Town National Research Hospital",
+      "license_no": "H000107",
+      "total_licensed_beds": ""
+    },
+    {
+      "city": "BRIDGEPORT",
+      "county": "MORRILL",
+      "zip_code": "69336",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Morrill County Community Hospital",
+      "license_no": "540001",
+      "total_licensed_beds": "20"
+    },
+    {
+      "city": "BROKEN BOW",
+      "county": "CUSTER",
+      "zip_code": "68822",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Jennie M Melham Memorial Medical Center",
+      "license_no": "100004",
+      "total_licensed_beds": "23"
+    },
+    {
+      "city": "CALLAWAY",
+      "county": "CUSTER",
+      "zip_code": "68825",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Callaway District Hospital",
+      "license_no": "100002",
+      "total_licensed_beds": "12"
+    },
+    {
+      "city": "CAMBRIDGE",
+      "county": "FURNAS",
+      "zip_code": "69022",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Cambridge Memorial Hospital Inc dba Tri Valley Healt",
+      "license_no": "310001",
+      "total_licensed_beds": "20"
+    },
+    {
+      "city": "CENTRAL CITY",
+      "county": "MERRICK",
+      "zip_code": "68826",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Merrick Medical Center",
+      "license_no": "H000142",
+      "total_licensed_beds": "6"
+    },
+    {
+      "city": "CHADRON",
+      "county": "DAWES",
+      "zip_code": "69337",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Chadron Community Hospital Corp dba Chadron Co",
+      "license_no": "H000117",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "COLUMBUS",
+      "county": "PLATTE",
+      "zip_code": "68601",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Columbus Community Hospital, Inc",
+      "license_no": "630001",
+      "total_licensed_beds": "50"
+    },
+    {
+      "city": "COZAD",
+      "county": "DAWSON",
+      "zip_code": "69130",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Cozad Community Hospital",
+      "license_no": "220001",
+      "total_licensed_beds": "20"
+    },
+    {
+      "city": "CREIGHTON",
+      "county": "KNOX",
+      "zip_code": "68729",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Sacred Heart Health Services dba Avera Creighton H",
+      "license_no": "490001",
+      "total_licensed_beds": "17"
+    },
+    {
+      "city": "CRETE",
+      "county": "SALINE",
+      "zip_code": "68333",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Crete Area Medical Center",
+      "license_no": "670001",
+      "total_licensed_beds": "15"
+    },
+    {
+      "city": "DAVID CITY",
+      "county": "BUTLER",
+      "zip_code": "68632",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Butler County Health Care Center dba Butler County",
+      "license_no": "090001",
+      "total_licensed_beds": "18"
+    },
+    {
+      "city": "ELKHORN",
+      "county": "DOUGLAS",
+      "zip_code": "68022",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Methodist Women's Hospital",
+      "license_no": "H000116",
+      "total_licensed_beds": ""
+    },
+    {
+      "city": "FAIRBURY",
+      "county": "JEFFERSON",
+      "zip_code": "68352",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Jefferson Community Health Center, Inc. dba Jeffers",
+      "license_no": "440001",
+      "total_licensed_beds": "17"
+    },
+    {
+      "city": "FALLS CITY",
+      "county": "RICHARDSON",
+      "zip_code": "68355",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Community Medical Center, Inc.",
+      "license_no": "H000112",
+      "total_licensed_beds": "22"
+    },
+    {
+      "city": "FRANKLIN",
+      "county": "FRANKLIN",
+      "zip_code": "68939",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Franklin County Memorial Hospital",
+      "license_no": "290001",
+      "total_licensed_beds": "14"
+    },
+    {
+      "city": "FREMONT",
+      "county": "DODGE",
+      "zip_code": "68025",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Methodist Fremont Health",
+      "license_no": "H000133",
+      "total_licensed_beds": "75"
+    },
+    {
+      "city": "FRIEND",
+      "county": "SALINE",
+      "zip_code": "68359",
+      "facility_type": "REH HOSP",
+      "facility_name": "",
+      "license_no": "",
+      "total_licensed_beds": "0"
+    },
+    {
+      "city": "GENEVA",
+      "county": "FILLMORE",
+      "zip_code": "68361",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Fillmore County Hospital",
+      "license_no": "H000121",
+      "total_licensed_beds": "20"
+    },
+    {
+      "city": "GENOA",
+      "county": "NANCE",
+      "zip_code": "68640",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "City of Genoa dba Genoa Community Hospital",
+      "license_no": "550001",
+      "total_licensed_beds": "19"
+    },
+    {
+      "city": "GORDON",
+      "county": "SHERIDAN",
+      "zip_code": "69343",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Gordon Memorial Hospital dba Gordon Memorial Hos",
+      "license_no": "730001",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "GOTHENBURG",
+      "county": "DAWSON",
+      "zip_code": "69138",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Gothenburg Memorial Hospital dba Gothenburg Healt",
+      "license_no": "220002",
+      "total_licensed_beds": "15"
+    },
+    {
+      "city": "GRAND ISLAND",
+      "county": "HALL",
+      "zip_code": "68803",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Grand Island Regional Medical Center",
+      "license_no": "H000136",
+      "total_licensed_beds": "67"
+    },
+    {
+      "city": "GRAND ISLAND",
+      "county": "HALL",
+      "zip_code": "68803",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Saint Francis Medical Center dba CHI Health St. Fran",
+      "license_no": "370001",
+      "total_licensed_beds": "153"
+    },
+    {
+      "city": "GRANT",
+      "county": "PERKINS",
+      "zip_code": "69140",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Perkins County Hospital District dba Perkins County",
+      "license_no": "600001",
+      "total_licensed_beds": "20"
+    },
+    {
+      "city": "HASTINGS",
+      "county": "ADAMS",
+      "zip_code": "68901",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "The Mary Lanning Memorial Hospital Association dba",
+      "license_no": "010002",
+      "total_licensed_beds": "170"
+    },
+    {
+      "city": "HEBRON",
+      "county": "THAYER",
+      "zip_code": "68370",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Thayer County Health Services",
+      "license_no": "760001",
+      "total_licensed_beds": "17"
+    },
+    {
+      "city": "HENDERSON",
+      "county": "YORK",
+      "zip_code": "68371",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Henderson Health Care Services, Inc.DBA Henderso",
+      "license_no": "820001",
+      "total_licensed_beds": "10"
+    },
+    {
+      "city": "HOLDREGE",
+      "county": "PHELPS",
+      "zip_code": "68949",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Phelps Memorial Health Center",
+      "license_no": "610003",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "IMPERIAL",
+      "county": "CHASE",
+      "zip_code": "69033",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Chase County Community Hospital",
+      "license_no": "130001",
+      "total_licensed_beds": "15"
+    },
+    {
+      "city": "KEARNEY",
+      "county": "BUFFALO",
+      "zip_code": "68845",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Bryan Hospital Kearney dba Kearney Regional Medic",
+      "license_no": "H000141",
+      "total_licensed_beds": "118"
+    },
+    {
+      "city": "KEARNEY",
+      "county": "BUFFALO",
+      "zip_code": "68847",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "CHI Health Good Samaritan",
+      "license_no": "070001",
+      "total_licensed_beds": "175"
+    },
+    {
+      "city": "KEARNEY",
+      "county": "BUFFALO",
+      "zip_code": "68847",
+      "facility_type": "PSYCH",
+      "facility_name": "CHI Health Richard Young Behavioral Health",
+      "license_no": "070002",
+      "total_licensed_beds": ""
+    },
+    {
+      "city": "KIMBALL",
+      "county": "KIMBALL",
+      "zip_code": "69145",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Kimball County Hospital dba Kimball Health Services",
+      "license_no": "H000144",
+      "total_licensed_beds": "14"
+    },
+    {
+      "city": "LEXINGTON",
+      "county": "DAWSON",
+      "zip_code": "68850",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Lexington Regional Health Center",
+      "license_no": "220004",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "LINCOLN",
+      "county": "LANCASTER",
+      "zip_code": "68506",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Bryan Medical Center",
+      "license_no": "500001",
+      "total_licensed_beds": "374"
+    },
+    {
+      "city": "LINCOLN",
+      "county": "LANCASTER",
+      "zip_code": "68502",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Bryan Medical Center",
+      "license_no": "500003",
+      "total_licensed_beds": ""
+    },
+    {
+      "city": "LINCOLN",
+      "county": "LANCASTER",
+      "zip_code": "68522",
+      "facility_type": "PSYCH",
+      "facility_name": "Lincoln Regional Center",
+      "license_no": "500004",
+      "total_licensed_beds": "200"
+    },
+    {
+      "city": "LINCOLN",
+      "county": "LANCASTER",
+      "zip_code": "68506",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Lincoln Surgery Center, LLC DBA Lincoln Surgical Ho",
+      "license_no": "H000103",
+      "total_licensed_beds": "20"
+    },
+    {
+      "city": "LINCOLN",
+      "county": "LANCASTER",
+      "zip_code": "68506",
+      "facility_type": "REH HOSP",
+      "facility_name": "Madonna Rehabilitation Hospital Lincoln",
+      "license_no": "500005",
+      "total_licensed_beds": "67"
+    },
+    {
+      "city": "LINCOLN",
+      "county": "LANCASTER",
+      "zip_code": "68506",
+      "facility_type": "HOSP-LT",
+      "facility_name": "Madonna Rehabilitation Specialty Hospital Lincoln",
+      "license_no": "507001",
+      "total_licensed_beds": "77"
+    },
+    {
+      "city": "LINCOLN",
+      "county": "LANCASTER",
+      "zip_code": "68526",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Nebraska Heart Hospital dba CHI Health Nebraska H",
+      "license_no": "H000118",
+      "total_licensed_beds": "63"
+    },
+    {
+      "city": "LINCOLN",
+      "county": "LANCASTER",
+      "zip_code": "68510",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Saint Elizabeth Regional Medical Center dba CHI He",
+      "license_no": "500007",
+      "total_licensed_beds": "258"
+    },
+    {
+      "city": "LYNCH",
+      "county": "BOYD",
+      "zip_code": "68746",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Niobrara Valley Hospital Corporation dba Niobrara Va",
+      "license_no": "050001",
+      "total_licensed_beds": "15"
+    },
+    {
+      "city": "MCCOOK",
+      "county": "RED WILLOW",
+      "zip_code": "69001",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Community Hospital Association dba Community Hos",
+      "license_no": "320007",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "MINDEN",
+      "county": "KEARNEY",
+      "zip_code": "68959",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Kearney County Health Services",
+      "license_no": "460001",
+      "total_licensed_beds": "10"
+    },
+    {
+      "city": "NEBRASKA CITY",
+      "county": "OTOE",
+      "zip_code": "68410",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "St Mary's Community Hospital dba CHI Health St Mar",
+      "license_no": "H000128",
+      "total_licensed_beds": "18"
+    },
+    {
+      "city": "NELIGH",
+      "county": "ANTELOPE",
+      "zip_code": "68756",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Antelope Memorial Hospital",
+      "license_no": "020001",
+      "total_licensed_beds": "16"
+    },
+    {
+      "city": "NORFOLK",
+      "county": "MADISON",
+      "zip_code": "68701",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Faith Regional Health Services",
+      "license_no": "520001",
+      "total_licensed_beds": "131"
+    },
+    {
+      "city": "NORFOLK",
+      "county": "MADISON",
+      "zip_code": "68701",
+      "facility_type": "PSY",
+      "facility_name": "Norfolk Regional Center",
+      "license_no": "520003",
+      "total_licensed_beds": ""
+    },
+    {
+      "city": "NORTH PLATTE",
+      "county": "LINCOLN",
+      "zip_code": "69101",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "North Platte Nebraska Hospital Corporation dba Grea",
+      "license_no": "510001",
+      "total_licensed_beds": "116"
+    },
+    {
+      "city": "O' NEILL",
+      "county": "HOLT",
+      "zip_code": "68763",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Avera St. Anthony's Hospital",
+      "license_no": "410002",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "OGALLALA",
+      "county": "KEITH",
+      "zip_code": "69153",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Ogallala Community Hospital",
+      "license_no": "470001",
+      "total_licensed_beds": "18"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68130",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Alegent Creighton Health dba CHI Health Lakeside",
+      "license_no": "H000106",
+      "total_licensed_beds": "153"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68124",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Alegent Health Bergan Mercy Health System dba CHI",
+      "license_no": "260001",
+      "total_licensed_beds": "396"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68122",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Alegent Health Immanuel Medical Center dba CHI He",
+      "license_no": "260002",
+      "total_licensed_beds": "352"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68114",
+      "facility_type": "HOSP-CHD",
+      "facility_name": "Children's Hospital & Medical Center dba Children's N",
+      "license_no": "260005",
+      "total_licensed_beds": "231"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68105",
+      "facility_type": "PSYCH",
+      "facility_name": "Douglas County Community Mental Health Center",
+      "license_no": "260006",
+      "total_licensed_beds": "16"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68131",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Lasting Hope Recovery Center",
+      "license_no": "H000110",
+      "total_licensed_beds": ""
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68118",
+      "facility_type": "HOSP-LT",
+      "facility_name": "Madonna Rehabilitation Specialty Hospital Omaha",
+      "license_no": "H000132",
+      "total_licensed_beds": "109"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68114",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Midwest Surgical Hospital L L C",
+      "license_no": "H000111",
+      "total_licensed_beds": "19"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68144",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Nebraska Orthopaedic Hospital dba OrthoNebraska",
+      "license_no": "H000143",
+      "total_licensed_beds": "24"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68122",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Nebraska Spine Hospital, LLC",
+      "license_no": "H000114",
+      "total_licensed_beds": "34"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68124",
+      "facility_type": "HOSP-LT",
+      "facility_name": "Select Specialty Hospital-Omaha, Inc dba Select Spe",
+      "license_no": "H000109",
+      "total_licensed_beds": "52"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68198",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "The Nebraska Medical Center",
+      "license_no": "260011",
+      "total_licensed_beds": "690"
+    },
+    {
+      "city": "OMAHA",
+      "county": "DOUGLAS",
+      "zip_code": "68114",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "The Nebraska Methodist Hospital DBA Methodist Hos",
+      "license_no": "260008",
+      "total_licensed_beds": "475"
+    },
+    {
+      "city": "ORD",
+      "county": "VALLEY",
+      "zip_code": "68862",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Valley County Hospital dba Valley County Health Syst",
+      "license_no": "780001",
+      "total_licensed_beds": "16"
+    },
+    {
+      "city": "OSCEOLA",
+      "county": "POLK",
+      "zip_code": "68651",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Annie Jeffrey Memorial County Health Center",
+      "license_no": "640001",
+      "total_licensed_beds": "16"
+    },
+    {
+      "city": "OSHKOSH",
+      "county": "GARDEN",
+      "zip_code": "69154",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Garden County Hospital & Nursing Home dba Garden",
+      "license_no": "H000145",
+      "total_licensed_beds": "10"
+    },
+    {
+      "city": "OSMOND",
+      "county": "PIERCE",
+      "zip_code": "68765",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Osmond General Hospital",
+      "license_no": "620001",
+      "total_licensed_beds": "20"
+    },
+    {
+      "city": "PAPILLION",
+      "county": "SARPY",
+      "zip_code": "68046",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Alegent Creighton Health dba CHI Health Midlands",
+      "license_no": "680001",
+      "total_licensed_beds": "58"
+    },
+    {
+      "city": "PAWNEE CITY",
+      "county": "PAWNEE",
+      "zip_code": "68420",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Pawnee County Memorial Hospital",
+      "license_no": "590001",
+      "total_licensed_beds": "11"
+    },
+    {
+      "city": "PENDER",
+      "county": "THURSTON",
+      "zip_code": "68047",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Pender Community Hospital District DBA Pender Co",
+      "license_no": "H000120",
+      "total_licensed_beds": "21"
+    },
+    {
+      "city": "PLAINVIEW",
+      "county": "PIERCE",
+      "zip_code": "68769",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Alegent Creighton Health dba CHI Health Plainview",
+      "license_no": "620002",
+      "total_licensed_beds": "15"
+    },
+    {
+      "city": "RED CLOUD",
+      "county": "WEBSTER",
+      "zip_code": "68970",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Webster County Community Hospital",
+      "license_no": "810001",
+      "total_licensed_beds": "13"
+    },
+    {
+      "city": "SCHUYLER",
+      "county": "COLFAX",
+      "zip_code": "68661",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Alegent Health Memorial Hospital, Schuyler dba CHI",
+      "license_no": "170001",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "SCOTTSBLUFF",
+      "county": "SCOTTS BLUFF",
+      "zip_code": "69361",
+      "facility_type": "HOSP-ACU",
+      "facility_name": "Regional West Medical Center",
+      "license_no": "700001",
+      "total_licensed_beds": "157"
+    },
+    {
+      "city": "SEWARD",
+      "county": "SEWARD",
+      "zip_code": "68434",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Memorial Health Care Systems DBA Memorial Hospit",
+      "license_no": "720001",
+      "total_licensed_beds": "24"
+    },
+    {
+      "city": "SIDNEY",
+      "county": "CHEYENNE",
+      "zip_code": "69162",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Cheyenne County Hospital Association dba Sidney R",
+      "license_no": "H000126",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "ST PAUL",
+      "county": "HOWARD",
+      "zip_code": "68873",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Howard County Medical Center",
+      "license_no": "430001",
+      "total_licensed_beds": "10"
+    },
+    {
+      "city": "SUPERIOR",
+      "county": "NUCKOLLS",
+      "zip_code": "68978",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Brodstone Memorial Hospital dba Brodstone Healthca",
+      "license_no": "570001",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "SYRACUSE",
+      "county": "OTOE",
+      "zip_code": "68446",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Community Memorial Hospital District dba Syracuse",
+      "license_no": "H000134",
+      "total_licensed_beds": "10"
+    },
+    {
+      "city": "TECUMSEH",
+      "county": "JOHNSON",
+      "zip_code": "68450",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Johnson County Hospital",
+      "license_no": "450001",
+      "total_licensed_beds": "18"
+    },
+    {
+      "city": "VALENTINE",
+      "county": "CHERRY",
+      "zip_code": "69201",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Cherry County Hospital",
+      "license_no": "140001",
+      "total_licensed_beds": "21"
+    },
+    {
+      "city": "WAHOO",
+      "county": "SAUNDERS",
+      "zip_code": "68066",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Saunders Medical Center",
+      "license_no": "H000108",
+      "total_licensed_beds": "16"
+    },
+    {
+      "city": "WAYNE",
+      "county": "WAYNE",
+      "zip_code": "68787",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Providence Medical Center",
+      "license_no": "800001",
+      "total_licensed_beds": "21"
+    },
+    {
+      "city": "WEST POINT",
+      "county": "CUMING",
+      "zip_code": "68788",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "Franciscan Care Services, Inc DBA Franciscan Healt",
+      "license_no": "180001",
+      "total_licensed_beds": "25"
+    },
+    {
+      "city": "YORK",
+      "county": "YORK",
+      "zip_code": "68467",
+      "facility_type": "HOSP-CAH",
+      "facility_name": "York General Health Care Services",
+      "license_no": "820002",
+      "total_licensed_beds": "25"
+    }
+  ]
+}
