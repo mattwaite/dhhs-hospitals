@@ -1,9 +1,9 @@
-name: Quarterly Hospital Roster Update
+name: Monthly Hospital Roster Update
 
 on:
-  # Run quarterly on the 15th of January, April, July, October at 9 AM UTC
+  # Run monthly on the 16th at 9 AM UTC
   schedule:
-    - cron: '0 9 15 1,4,7,10 *'
+    - cron: '0 9 16 * *'
 
   # Allow manual trigger for testing
   workflow_dispatch:
@@ -68,7 +68,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Quarterly update: Hospital roster ${{ steps.date.outputs.DATE }}
+            git commit -m "Monthly update: Hospital roster ${{ steps.date.outputs.DATE }}
 
           - Downloaded PDF from DHHS website
           - Parsed $(wc -l < "data/hospital_roster_${{ steps.date.outputs.DATE }}.csv" | tr -d ' ') hospital records

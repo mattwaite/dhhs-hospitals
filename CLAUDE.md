@@ -28,7 +28,7 @@ python -m pytest test_parse_hospital_roster.py::TestFacilityTypes -v
 python test_snapshot.py
 
 # Trigger workflow manually
-gh workflow run quarterly_update.yml
+gh workflow run monthly_update.yml
 ```
 
 ## Architecture
